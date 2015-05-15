@@ -2,4 +2,6 @@
 
 echo "Compiling..."
 
+echo PORT=$PORT
+
 exit 0
