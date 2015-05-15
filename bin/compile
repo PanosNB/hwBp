@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+build_path=$1
+cache_path=$2
+
+echo "#!/usr/bin/env bash" > build_path/start.sh
+echo "echo Hello World" >> build_path/start.sh
