@@ -2,6 +2,6 @@
 
 echo "Compiling..."
 
-echo PORT=$PORT
+echo VCAP_APPLICATION=$VCAP_APPLICATION
 
 exit 0
