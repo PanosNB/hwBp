@@ -2,4 +2,6 @@
 
 echo "Nothing to compile..."
 
+ls -l
+
 exit 0
