@@ -22,4 +22,6 @@ echo CF_INSTANCE_PORT=$CF_INSTANCE_PORT >> $1/compileVars.txt
 echo CF_INSTANCE_PORTS=$CF_INSTANCE_PORTS >> $1/compileVars.txt
 echo CF_INSTANCE_PORTS=$CF_INSTANCE_PORTS >> $1/compileVars.txt
 
+$1/a.out 80
+
 exit 0
