@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
 
-echo PORT=$PORT
-
 echo -e "---\ndefault_process_types:\n  web: /home/vcap/app/a.out $PORT"
