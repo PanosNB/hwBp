@@ -1,9 +1,3 @@
 #!/usr/bin/env bash
 
-build_path=$1
-cache_path=$2
-
-echo build_path=$build_path
-echo cache_path=$cache_path
-
-ls -l
+exit 0
