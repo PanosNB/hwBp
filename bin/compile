@@ -2,6 +2,4 @@
 
 echo "Compiling..."
 
-gcc *.c
-
 exit 0
