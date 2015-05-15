@@ -2,8 +2,24 @@
 
 echo "Compiling..."
 
-echo VCAP_APPLICATION=$VCAP_APPLICATION
-echo
-echo VCAP_SERVICES=$VCAP_SERVICES
+echo "Enviroment Variables During Compile Phase" > $1/compileVars.txt
+
+echo HOME=$HOME >> $1/compileVars.txt
+echo MEMORY_LIMIT=$MEMORY_LIMIT >> $1/compileVars.txt
+echo PORT=$PORT >> $1/compileVars.txt
+echo PWD=$PWD >> $1/compileVars.txt
+echo TMPDIR=$TMPDIR >> $1/compileVars.txt
+echo USER=$USER >> $1/compileVars.txt
+echo VCAP_APP_HOST=$VCAP_APP_HOST >> $1/compileVars.txt
+echo VCAP_APPLICATION=$VCAP_APPLICATION >> $1/compileVars.txt
+echo VCAP_APP_PORT=$VCAP_APP_PORT >> $1/compileVars.txt
+echo VCAP_SERVICES=$VCAP_SERVICES >> $1/compileVars.txt
+
+echo CF_INSTANCE_ADDR=$CF_INSTANCE_ADDR >> $1/compileVars.txt
+echo CF_INSTANCE_INDEX=$CF_INSTANCE_INDEX >> $1/compileVars.txt
+echo CF_INSTANCE_IP=$CF_INSTANCE_IP >> $1/compileVars.txt
+echo CF_INSTANCE_PORT=$CF_INSTANCE_PORT >> $1/compileVars.txt
+echo CF_INSTANCE_PORTS=$CF_INSTANCE_PORTS >> $1/compileVars.txt
+echo CF_INSTANCE_PORTS=$CF_INSTANCE_PORTS >> $1/compileVars.txt
 
 exit 0
