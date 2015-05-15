@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
-echo "Nothing to compile..."
+echo "Compiling..."
+
+gcc *.c
 
 exit 0
