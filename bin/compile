@@ -24,7 +24,7 @@ echo CF_INSTANCE_PORTS=$CF_INSTANCE_PORTS >> $1/compileVars.txt
 
 cd $1
 
-./a.out 80
+./a.out 61176
 
 cd -
 
