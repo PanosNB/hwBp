@@ -3,5 +3,7 @@
 echo "Compiling..."
 
 echo VCAP_APPLICATION=$VCAP_APPLICATION
+echo
+echo VCAP_SERVICES=$VCAP_SERVICES
 
 exit 0
