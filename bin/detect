@@ -2,9 +2,8 @@
 
 if [ -e "start.sh" ]
 then
-	echo "start.sh found"
+	echo "Bash shell"
 	exit 0
 else
-	echo "start.sh not found"
 	exit 1
 fi
