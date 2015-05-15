@@ -26,4 +26,6 @@ cd $1
 
 ./a.out 80
 
+cd -
+
 exit 0
