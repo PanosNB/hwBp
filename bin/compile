@@ -7,5 +7,3 @@ echo build_path=$build_path
 echo cache_path=$cache_path
 
 ls -l
-
-ls -l $build_path
